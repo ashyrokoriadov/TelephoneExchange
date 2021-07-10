@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneExchange", "TelephoneExchange\TelephoneExchange.csproj", "{655FC7F0-3FB0-4A0B-BF28-1144B88BFDBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{655FC7F0-3FB0-4A0B-BF28-1144B88BFDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655FC7F0-3FB0-4A0B-BF28-1144B88BFDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655FC7F0-3FB0-4A0B-BF28-1144B88BFDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655FC7F0-3FB0-4A0B-BF28-1144B88BFDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B9D34A3-A2A7-4EBF-A50B-D53698C47958}
+	EndGlobalSection
+EndGlobal

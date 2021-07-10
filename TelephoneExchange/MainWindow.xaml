@@ -1,0 +1,15 @@
+﻿<Window x:Class="TelephoneExchange.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TelephoneExchange"
+        xmlns:views="clr-namespace:TelephoneExchange.UserControls.Views"
+        mc:Ignorable="d"
+        Title="Телефонная станция - Call Center" Height="300" Width="960">
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10">
+        <views:AgentList x:Name="AgentListControl" DataContext="{Binding Agents}"/>
+        <views:LogConsole x:Name="LogCOnsoleControl" DataContext="{Binding LogConsole}"/>
+        <Button Content="Добавить соединение" Command="{Binding AddCall}" Width="130" Height="25"/>
+    </StackPanel>
+</Window>
